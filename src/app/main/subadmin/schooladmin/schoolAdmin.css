@@ -1,0 +1,83 @@
+.admin-cont {
+	min-width: 95%;
+	margin-top: 5px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.admin-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+	overflow-y: auto;
+}
+
+.admin-table-header {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+
+/* .edit-staff-cont {
+	min-width: 95%;
+	margin-top: 45px;
+} */
+
+/* .edit-staff-form-cont {
+	margin-top: 20px;
+	height: 65vh;
+	padding: 50px 50px;
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+} */
+
+/* .edit-staff-form-heading {
+	font-weight: 800;
+	font-size: medium;
+	margin-left: 50px;
+} */
+
+/* .staff-pp-overlay {
+	position: absolute;
+	top: 40%;
+	left: 14%;
+	opacity: 0;
+	gap: 2px;
+} */
+
+/* .camera-holder:hover .staff-pp-overlay {
+	opacity: 1;
+} */
+
+.admin-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+}
+.sub-admin-col {
+	font-size: 12px;
+}
+
+/* .staff-position {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+} */
+
+.admin-email {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+

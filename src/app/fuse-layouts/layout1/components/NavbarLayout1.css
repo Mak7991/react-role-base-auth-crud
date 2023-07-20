@@ -1,0 +1,101 @@
+.sun-logo {
+	display: inline-block;
+}
+
+.main-sun {
+	display: inline-block;
+}
+
+.sun-time {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 8px;
+}
+
+.view-as-btn {
+	background: transparent;
+	border: 1px white solid;
+	border-radius: 20px;
+	color: white;
+	padding: 5px 15px;
+	margin-top: 10px;
+}
+
+.back-sa-btn {
+	border: 1px white solid;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+
+.school-list-card {
+	width: 500px;
+	height: 470px;
+	padding-top: 10px;
+}
+
+.school-list-header {
+	align-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	width: 90%;
+	margin: auto;
+	font-weight: 700;
+}
+
+.fa-times {
+	font-size: 20px;
+}
+
+.school-list-cont {
+	height: 320px;
+	max-height: 280px;
+	border: 2px lightgray solid;
+	border-radius: 10px;
+	overflow-y: auto;
+	width: 90%;
+	margin: auto;
+}
+
+.view-school-btn {
+	border: 2px solid #5b81f0;
+	border-radius: 23px;
+	width: 156px;
+	height: 38px;
+	font-weight: 700;
+	color: #5b81f0;
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.view-school-btn:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+
+.tick-wrapper-custom {
+	color: white;
+	border: 1px #4DA0EE solid;
+	border-radius: 40px;
+	
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 22px;
+}
+.hd-school {
+    width: 310px;
+}
+
+.hd-school.hd-schooling h5 {
+    font-size: 14px;
+}
+.text-transform{
+	text-transform: capitalize;
+}
+
+.bottom-nav {
+    /* margin-bottom: 10px; */
+	padding-bottom: 20px;
+}

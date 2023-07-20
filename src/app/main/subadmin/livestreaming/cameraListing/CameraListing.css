@@ -1,0 +1,25 @@
+.camera-container {
+    width: 93%;
+    margin: auto;
+    margin-top: 30px;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.camera-table-cont {
+    margin-top: 30px;
+    height: 60vh;
+    padding: 0 30px 30px 30px;
+}
+
+.camera-table-header {
+    font-weight: 700;
+    color: rgb(31, 71, 156);
+    font-size: small;
+}
+.camera-room-name{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #06071d;
+    font-weight: 700;  
+}

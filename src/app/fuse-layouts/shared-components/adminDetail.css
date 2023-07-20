@@ -1,0 +1,188 @@
+
+
+
+.profileinfo {
+    /* width: 1155PX; */
+    padding-bottom: 13px;    margin-top: 31px;
+}
+
+
+.profile-bg {
+    padding: 86px 46px;
+    /* width: 1161px; */
+}
+
+.hd-main {
+	font-size: 20px;
+	font-weight: 700;
+	color: #06071d;
+}
+
+.span.personal-hdd{
+    margin-right: 4px;
+    font-size: 15px;
+    text-align: left;
+}
+.stdinfoo {
+    width: 1155PX;
+    padding-bottom: 13px;
+    margin-top: 51px;
+}
+
+.ppinputoverlayy {
+    position: absolute;
+    top: 37%;
+    left: 16%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.pic-upload-overlay:hover .ppinputoverlayy {
+    opacity: 1;
+}
+.ppinputoverlayy.personaleditt {
+    top: 30%;
+    left: 40%;
+}
+
+.ppinputoverlayy.contactupload {
+    left: 36%;
+}
+
+
+.editwidthh {
+    /* margin: auto; */
+    width: 1157px;
+    padding-bottom: 25px;
+    background: #fff;
+    /* margin: auto; */
+    margin: 0px auto;
+}
+
+.personal-marginn {
+    margin-left: 110px;
+}
+.white-backk {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.field-marginn {
+    margin-bottom: 48px;
+    margin-right: 130px;
+    width: 65%;
+}
+.margin0-33.field-marginn .MuiFormControl-root {
+    width: 100%;
+}
+.center-btn {
+    text-align: center;
+}
+.center-btn button {
+    margin-right: 14px;
+}
+
+
+/* popup */
+
+.popupp {
+    width: 432px;
+    height: 417px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.top-popup {
+    width: 368px;
+    height: 340px;
+
+}
+
+.top-hd h2 {
+    /* text-align: initial; */
+    /* margin-bottom: 21px; */
+    /* font-weight: 800;
+    font-size: 20px; */
+}
+
+.insert {
+    margin-bottom: 8px;
+}
+.top-baar span {
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 700;
+    vertical-align: middle;
+    height: 42px;
+}
+.top-baar{
+    padding-bottom: 11px;
+}
+button.btn-reset {
+    line-height: 0px;}
+
+
+.top-popup button {
+    /* width: 131px;
+    height: 39px; */
+    /* margin-top: 19px; */
+}
+
+button.btn-input {
+    width: 146px;
+    height: 41px;
+    margin-top: 16px;
+}
+
+.profile-cont{
+    min-width: 95%;
+	margin-top: 5px;
+	height: 100vh;
+	overflow: hidden;
+}
+span.pass-btn span  {
+    line-height: 22px;
+}
+.btn-reset {
+    line-height: 38px;
+}
+.school-list-headerr
+{
+    align-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    /* width: 90%; */
+    margin: auto;
+    font-weight: 700;
+}
+h1.left-hd {
+    margin: 0px;
+}
+  
+
+.totalRooms-heading{
+    font-size: 20px;
+    line-height: 2.4;
+}
+
+span.font-extrabold.totalRooms-heading.pass-imp {
+    display: inherit;
+    padding-bottom: 19px;
+}
+.profile-btn {
+    padding-top: 22px;
+}
+.profile-bgg {
+    padding: 86px 46px 31px 46px;
+    /* width: 1161px; */
+}
+

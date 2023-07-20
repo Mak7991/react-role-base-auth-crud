@@ -1,0 +1,99 @@
+.hellloooo {
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.hellloooo:before {
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 4px;
+    background: #36A5F9;
+    bottom: 0px;
+    /* right: 0px; */
+    /* left: 0px; */
+    text-align: center;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+}
+
+Button.button-login {
+    background: #13b4e0;
+    color: #fff;
+}
+
+
+.insert-text {
+    background-color: transparent;
+}
+
+.kkk {
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid grey;
+    height: 35px;
+    background-color: transparent;
+}
+
+.insert h4 {
+    text-transform: capitalize;
+    color: grey;
+    font-size: 11px;
+    padding-bottom: 11px;
+}
+
+/* .right-forget h4 {
+    color: #009DFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    cursor: pointer;
+} */
+
+input.forget-password-submit {
+    background: transparent linear-gradient(270deg, #36CEE5 0%, #676AF6 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 20px #86C2FF96;
+    border-radius: 23px;
+    width: 145px;
+    height: 34px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+input.forget-password-submit:hover {
+    background: transparent linear-gradient(270deg, #676AF6 0%, #36CEE5 100%) 0% 0% no-repeat padding-box;
+}
+
+
+
+.paraa {
+    font-size: 13px;
+    color: grey;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.forget-width {
+    width: 401px;
+    height: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 50px #0078de80;
+    border-radius: 12px;
+    opacity: 1;
+
+}
+
+.hello-forget {
+    font-weight: 600;
+}

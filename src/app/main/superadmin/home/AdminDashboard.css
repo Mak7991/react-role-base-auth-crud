@@ -1,0 +1,280 @@
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	color: #3069b1;
+	font-weight: 900;
+}
+
+.school-table-cont {
+	margin-top: 20px;
+	height: 350px;
+	padding: 0px 8px 20px 8px;
+}
+
+.staff-table-cont {
+	margin-top: 20px;
+	height: 350px;
+	padding: 0px 20px 20px 20px;
+}
+
+.school-count {
+	color: rgb(31, 71, 156);
+	font-weight: 800;
+}
+
+.schoolTableHeader {
+	color: rgb(31, 71, 156);
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.no-schools {
+	font-size: inherit;
+}
+
+.schools-heading {
+	font-size: 18px;
+	line-height: 2.4;
+}
+
+.chevron-right-icon {
+	font-size: 20px;
+	align-self: baseline;
+}
+
+.see-details {
+	font-size: 14px;
+	color: #009dff;
+}
+
+.green-color {
+	color: #04c01c;
+}
+
+.red-color {
+	color: #f10050;
+}
+
+.schools-table-heading {
+	font-size: 13px;
+}
+
+.staff-table-cell {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+	max-width: 100px;
+}
+
+.name-col {
+	width: 28%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.phone-col {
+	width: 25%;
+	font-size: 13px;
+	text-align: left;
+}
+
+.status-col {
+	width: 15%;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.details-col {
+	width: 25%;
+	font-size: 13px;
+}
+
+.admin-sideBar {
+	margin-top: 30px;
+	padding: 14px;
+	margin-bottom: 100px;
+	height: 70vh;
+}
+
+.middle-div {
+	margin-bottom: 50px;
+}
+
+.sideBar-heading {
+	color: rgb(31, 71, 156);
+	font-weight: 700;
+}
+
+.subAdmin-card-div {
+	overflow-y: auto;
+}
+
+.subAdmin-card {
+	background: rgba(255, 255, 255, 0.7);
+	width: 290px;
+	border-radius: 4px;
+	padding: 21px 15px;
+}
+
+.subAdmin-info {
+	width: 100%;
+	max-width: 85%;
+	margin-left: 5px;
+}
+
+.subAdmin-info h5 {
+	font-size: 15px;
+	color: #06071d;
+	font-weight: 700;
+	padding-bottom: 2px;
+}
+
+.subAdmin-info p {
+	font-size: 14px;
+	color: #656674;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.subAdmin-info-underLine {
+	height: 1px;
+	background: #999999;
+	opacity: 2;
+}
+
+.subAdmin-info h6 {
+	font-size: 13px;
+	color: #6470f5;
+	font-weight: 800;
+	text-transform: capitalize;
+	padding-bottom: 7px;
+}
+
+.subAdmin-info h3 {
+	font-size: 13px;
+	color: #06071d;
+	font-weight: 700;
+	padding-top: 8px;
+}
+
+.subAdmin-info h3 {
+	font-size: 13px;
+	color: #06071d;
+	font-weight: 700;
+	padding-top: 8px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 6px;
+	margin-top: -10px;
+}
+.subAdmin-info span i {
+	transform: rotate(-227deg);
+	display: inline-block;
+	font-size: 10px;
+	vertical-align: inherit;
+}
+.subAdmin-card button {
+	width: 126px;
+	height: 33px;
+	margin-top: 18px;
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 6px 20px #86c2ff96;
+	border-radius: 23px;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.subAdmin-schoolName {
+	overflow-wrap: break-word;
+}
+
+.student-table-container {
+	margin-top: 20px;
+	height: 374px;
+	padding: 0px 20px 0px 20px;
+}
+
+.student-image {
+	border-bottom: none;
+}
+
+.student-image > div {
+	height: 40px;
+	width: 40px;
+}
+
+.student-listing-name {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.students-heading {
+	font-size: 18px;
+	line-height: 2.4;
+}
+
+.student-room-name {
+	color: #656674;
+	font-size: 11px;
+}
+
+.student-status {
+	font-weight: bold;
+	font-weight: 13px;
+}
+
+.room-table-container {
+	margin-top: 20px;
+	height: 374px;
+	padding: 0px 20px 0px 20px;
+}
+
+.name-of-room {
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rooms-student {
+	color: #656674;
+	font-size: 12px;
+}
+
+.room-image {
+	/* border-bottom: none; */
+}
+
+.room-image > div {
+	height: 40px;
+	width: 40px;
+}
+
+.totalRooms-heading {
+	font-size: 20px;
+	line-height: 2.4;
+}
+.staff-name {
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.staffs-heading {
+	font-size: 18px;
+	line-height: 2.4;
+}
+
+.subAdmin-heading {
+	font-size: 18px;
+	line-height: 2.4;
+}

@@ -1,0 +1,26 @@
+.add-btn {
+	border-radius: 23px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+	width: 100px;
+	height: 35px;
+	font-size: 13px;
+	border: 2px solid #5b81f0;
+	color: #5b81f0;
+}
+
+.add-btn:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+
+.disabled {
+	border: 2px solid #5b81f0;
+	color: #5b81f0;
+}
+
+.disabled:hover {
+	background: none;
+	color: #5b81f0;
+}

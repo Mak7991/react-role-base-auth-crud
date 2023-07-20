@@ -1,0 +1,207 @@
+.messaging-top-bar {
+	background-color: #fff;
+	box-shadow: 0px 1px 6px #153f835d;
+	height: 68px;
+}
+
+.messaging-personal-hd h1 span {
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+.messaging-personal-hd.info-hd h1 span {
+	margin-right: -3px;
+}
+
+.messaging-active-hd {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 15px;
+}
+
+h1.messaging-hd a {
+	color: #06071d;
+	font-weight: 600;
+}
+
+.messaging-hd {
+	font-size: 18px;
+	margin-right: 20px;
+	align-self: center;
+	margin-top: 22px;
+}
+
+h1.messaging-hd a:hover {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 19px;
+}
+
+.rooms-list-containers {
+	height: 330px;
+}
+
+.load-spinner {
+	padding: 15px 20px;
+}
+
+.rooms-grid {
+	height: 70%;
+	overflow-y: auto;
+}
+
+.room-paper {
+	height: 200px;
+	cursor: pointer;
+}
+
+.room-paper > div > img {
+	margin: 12% auto 7%;
+}
+.buttons-containers.back-button {
+	background: #fff;
+	margin-top: 0px;
+	padding-bottom: 22px;
+}
+
+.buttons-containers {
+	height: 20%;
+	margin-top: 40px;
+}
+
+.buttons-containers > span {
+	margin-right: 5px;
+}
+
+.bold-font-weight {
+	font-weight: bold;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.half-width > div {
+	width: 100%;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.file-upload-label {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.54);
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.recipients-container {
+	line-height: 4.4rem;
+}
+
+.cross {
+	position: absolute;
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	width: 23px;
+	height: 22px;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 100%;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+	opacity: 1;
+	font-weight: 700;
+}
+
+.cross-announcement-img {
+	top: 10px;
+	left: 80px;
+}
+
+.cross-announcement-pdf {
+	top: 11px;
+	left: 60px;
+}
+
+.cross-pdf {
+	top: -6px;
+	left: 55px;
+}
+
+.cross-img {
+	top: 2px;
+	left: 70px;
+}
+
+.img-pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 81px;
+	height: 81px;
+	object-fit: cover;
+	margin: auto;
+	margin-top: 21px;
+	border-radius: 100%;
+}
+
+/* .selected-room {
+	background: rgb(22, 208, 214);
+	background: radial-gradient(circle, rgba(22, 208, 214, 1) 0%, rgba(0, 255, 246, 1) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 71px;
+	opacity: 1;
+	height: 71px;
+	margin: auto;
+	position: relative;
+	margin-top: 21px;
+	margin-bottom: 12px;
+	
+	border-radius: 50%;
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
+/* .selected-room:before {
+    position: absolute;
+    content: url("/public/assets/images/tick.png");
+    width: 71px;
+    width: 71px;
+    height: 71px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+/* .selected-room img {
+	opacity: -3;
+} */
+
+.hd-ann h6 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000000;
+}
+
+.form-section-heading {
+	/* margin-bottom: 10px; */
+	font-size: 20px;
+	padding-right: 8px;
+}
+.attachment {
+	background-color: white;
+}
+
+.last-chat-msg {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}

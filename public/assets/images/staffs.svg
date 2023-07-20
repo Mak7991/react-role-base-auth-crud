@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_82333" data-name="Group 82333" transform="translate(17067.5 18433.119)">
+    <g id="Group_80614" data-name="Group 80614" transform="translate(-17068 -18433.619)">
+      <g id="logout" transform="translate(0.5 0.5)">
+        <g id="Diaper" transform="translate(0 0)">
+          <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+            <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="18" cy="18" rx="18" ry="18" fill="#209bfb"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_80471" data-name="Group 80471" transform="translate(-10078.5 -4184.832)">
+        <path id="staff-icon" d="M143.531,143.812v-.545a7.8,7.8,0,0,1,5.488-7.459l.436-.138-.4-.233a4.54,4.54,0,0,1,2.289-8.461,4.536,4.536,0,0,1,2.289,8.454l-.4.231.438.138a7.93,7.93,0,0,1,5.487,7.409l-.591.6H147.351v-1.084h10.71l-.028-.226a6.717,6.717,0,0,0-6.678-5.965h0a6.8,6.8,0,0,0-.695.036,6.686,6.686,0,0,0-6.043,6.7v.544Zm7.818-15.753a3.454,3.454,0,1,0,0,6.908h.261l-.011-.014a3.452,3.452,0,0,0-.178-6.894Z" transform="translate(9945.469 4067.354)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+.hellloooo {
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	position: relative;
+	text-align: center;
+	padding-bottom: 11px;
+}
+.hellloooo:before {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 4px;
+	background: #36a5f9;
+	bottom: 0px; /* right: 0px; */ /* left: 0px; */
+	text-align: center;
+	margin: auto;
+	right: 0px;
+	left: 0px;
+}
+button.button-login {
+	background: #13b4e0;
+	color: #fff;
+}
+
+.insert-text {
+	background-color: transparent;
+}
+.kkk {
+	width: 100%;
+	outline: none;
+	border-bottom: 1px solid grey;
+	height: 35px;
+	background-color: transparent;
+}
+.insert h4 {
+	text-transform: capitalize;
+	color: grey;
+	font-size: 11px;
+}
+.right-forget h4 {
+	color: #009dff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+	cursor: pointer;
+}
+#signin-btn {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 6px 20px #86c2ff96;
+	border-radius: 23px;
+	width: 145px;
+    height: 34px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	margin: auto;
+	margin-top: 11px;
+	cursor: pointer;
+}
+#signin-btn:hover {
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+}
+
+.forget-width {
+	width: 401px;
+    height: 500px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 6px 50px #0078de80;
+	border-radius: 12px;
+	opacity: 1;
+}
+
+.hd-succ {
+	font-size: 18px;
+	color: #000000;
+	font-weight: 700;
+	text-transform: capitalize;
+	padding-bottom: 18px;
+}
+
+.para-succ {
+	font-size: 16px;
+	color: #000000b2;
+	font-weight: 500;
+	padding-bottom: 41px;
+}
+.parasucces
+{
+	padding-bottom: 20px;
+}

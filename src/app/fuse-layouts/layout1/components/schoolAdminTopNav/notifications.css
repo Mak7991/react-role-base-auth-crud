@@ -1,0 +1,36 @@
+.noti-wrapper {
+	margin: 10px 1px 0 1px;
+	/* padding: 5px 10px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: initial ;
+}
+
+.noti-icon-wrapper {
+	color: #ff4b4b;
+	padding: 2px;
+	/* margin-left: 13px; */
+	width: 38px;
+}
+
+.noti-icon {
+	border: 1px solid #ff4b4b;
+	border-radius: 50%;
+	padding: 5px 8px;
+	background: rgb(251, 207, 192);
+	background: linear-gradient(14deg, rgba(251, 207, 192, 1) 0%, rgba(255, 254, 252, 1) 100%);
+}
+
+.noti-text {
+	font-weight: 700;
+	font-size: smaller;
+}
+
+.notification-wrapper {
+	padding: 20px 25px;
+}
+
+.avatar-default-text div:nth-child(2) {
+	font-size: 14px;
+}

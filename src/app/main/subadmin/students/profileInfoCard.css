@@ -1,0 +1,57 @@
+.tick-wrapper-profile {
+	color: white;
+	border: 1px #4da0ee solid;
+	border-radius: 40px;
+	width: 20px;
+	height: 20px;
+	padding: 0 4px;
+	line-height: 15px;
+}
+
+.profile-card-wrapper {
+	width: 500px;
+}
+
+.break {
+	word-break: break-word;
+}
+.larg_image {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	/* background-color: #ffffff; */
+	/* background-color: transparent; */
+	z-index: 999;
+	/* padding: 10px; */
+	overflow: hidden;
+	/* padding-bottom: 56px; */
+}
+.larg_image > img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	left: 0;
+	-o-object-fit: contain;
+	/* background-color: transparent; */
+	object-fit: contain;
+}
+.larg_image > div {
+	position: absolute;	
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	z-index: 10000;
+	margin: 4px 2px 0 0;
+}
+
+button.add-btn.add-btn-undefined.cursor-pointer:hover img {
+    filter: brightness(0) invert(1);
+}

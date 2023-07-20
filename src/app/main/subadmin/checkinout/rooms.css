@@ -1,0 +1,110 @@
+.rooms-container {
+	width: 100%;
+	padding: 0px 40px 0px 40px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.rooms-heading {
+	font-weight: 700;
+}
+
+.rooms-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+}
+
+
+
+.active-student-row {
+	background-color: rgba(165, 231, 253, 0.44);
+}
+
+/* .makeStyles-sidebar-176.permanent {
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    background-color: #F7F7F7;
+    width: 299px;
+} */
+
+.pickup-card {
+	background: rgba(255, 255, 255, 0.7);
+	width: 270px;
+	border-radius: 4px;
+	padding: 21px 15px;
+}
+
+.pickup-info {
+	width: 100%;
+	max-width: 85%;
+	margin-left: 5px;
+}
+
+.pickup-info h5 {
+	font-size: 15px;
+	color: #06071d;
+	font-weight: 700;
+	padding-bottom: 2px;
+}
+
+.pickup-info p {
+	font-size: 14px;
+	color: #656674;
+	font-weight: 600;
+}
+
+.pickup-info h6 {
+	font-size: 13px;
+	color: #6470f5;
+	font-weight: 800;
+	text-transform: capitalize;
+	padding-bottom: 7px;
+}
+
+.pickup-info h3 {
+	font-size: 13px;
+	color: #06071d;
+	font-weight: 700;
+	padding-top: 8px;
+}
+
+.pickup-info h3 {
+	font-size: 13px;
+	color: #06071d;
+	font-weight: 700;
+	padding-top: 8px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 6px;
+}
+.pickup-info span i {
+	transform: rotate(-227deg);
+	display: inline-block;
+	font-size: 10px;
+	vertical-align: inherit;
+}
+.pickup-card button {
+	width: 126px;
+	height: 33px;
+	margin-top: 18px;
+	font-size: 14px;
+}
+
+.pickup-card-email {
+	overflow-wrap: break-word;
+}
+
+.checkinout-table-header {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+
+.pickups button {
+	width: 90px;
+	height: 33px;
+	margin-top: 18px;
+	font-size: 14px;
+}

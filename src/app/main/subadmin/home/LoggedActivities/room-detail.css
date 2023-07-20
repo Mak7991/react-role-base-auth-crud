@@ -1,0 +1,21 @@
+.activity-count {
+	color: #0d3974;
+    padding: 20px 19px;
+    /* border: 4px solid blue; */
+    background: linear-gradient(180deg, rgba(238,246,252,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 50%;
+}
+
+.acitivty-count-wrapper {
+    padding: 2px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(103,107,246,1) 0%, rgba(55,205,229,1) 100%);
+    width: max-content;
+    height: max-content;
+}
+
+.activity-counts {
+    padding: 4px 12px;
+    background-color: #EFF7FD;
+    border-radius: 5rem;
+}

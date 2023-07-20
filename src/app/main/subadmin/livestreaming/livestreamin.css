@@ -1,0 +1,52 @@
+
+/* top bar css  */
+
+.messaging-top-bar {
+	background-color: #fff;
+	box-shadow: 0px 1px 6px #153f835d;
+	height: 68px;
+}
+
+.messaging-personal-hd h1 span {
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+.messaging-personal-hd.info-hd h1 span {
+	margin-right: -3px;
+}
+
+.messaging-active-hd {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 15px;
+}
+
+h1.messaging-hd a {
+	color: #06071d;
+	font-weight: 600;
+}
+
+.messaging-hd {
+	font-size: 18px;
+	margin-right: 20px;
+	align-self: center;
+	margin-top: 22px;
+}
+
+h1.messaging-hd a:hover {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 19px;
+}
+
+.rooms-list-containers {
+	height: 330px;
+}
+
+.load-spinner {
+	padding: 15px 20px;
+}
+/* end top bar css */

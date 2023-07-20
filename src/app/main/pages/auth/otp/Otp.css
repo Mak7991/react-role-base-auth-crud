@@ -1,0 +1,154 @@
+.hellloooo {
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	position: relative;
+	text-align: center;
+	padding-bottom: 11px;
+}
+.hellloooo:before {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 4px;
+	background: #36a5f9;
+	bottom: 0px; /* right: 0px; */ /* left: 0px; */
+	text-align: center;
+	margin: auto;
+	right: 0px;
+	left: 0px;
+}
+button.button-login {
+	background: #13b4e0;
+	color: #fff;
+}
+
+.insert-text {
+	background-color: transparent;
+}
+.kkk {
+	width: 100%;
+	outline: none;
+	border-bottom: 1px solid grey;
+	height: 35px;
+	background-color: transparent;
+}
+.insert h4 {
+	text-transform: capitalize;
+	color: grey;
+	font-size: 11px;
+	padding-bottom: 11px;
+}
+.right-forget h4 {
+	color: #009dff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+	cursor: pointer;
+}
+input.otpbtn {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 6px 20px #86c2ff96;
+	border-radius: 23px;
+	width: 130px;
+    height: 41px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	margin: auto;
+	margin-top:0px;
+	cursor: pointer;
+}
+input.otpbtn:hover {
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+}
+
+.para {
+	font-size: 16px;
+	color: grey;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.para span {
+	text-transform: uppercase;
+	color: #000000b2;
+	font-weight: 700;
+}
+.forget-width {
+	width: 401px;
+    height: 500px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 6px 50px #0078de80;
+	border-radius: 12px;
+	opacity: 1;
+}
+.otpContainer {
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+    margin-bottom: 23px;
+}
+.paraName {
+	margin-bottom: 22px;
+	padding-bottom: 0px;
+}
+input[type='tel'] {
+	width: 45px;
+	height: 44px;
+	margin: auto;
+	margin-right: 2.3px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	padding: 0;
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 32px;
+	text-shadow: none;
+	box-shadow: none;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 600;
+	line-height: 0;
+	border-radius: 0;
+	border-image-width: 0;
+	margin: 0px 11px;
+}
+input[type='tel']:focus,
+.otp-filled {
+	outline: 0;
+	transition: all 0.3s ease;
+}
+input[type='tel'].otp-filled-active {
+	outline: 0;
+}
+.otp-sub {
+	margin: auto;
+}
+.otp-sub button[type='button'] {
+    width: 130px;
+    height: 41px;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 50px;
+	margin-right: 27px;
+	box-shadow: 0px 6px 20px #86c2ff96;
+	border: 2px solid #5b81f0;
+	border-radius: 23px;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #5b81f0;
+	cursor: pointer;
+}
+.otp-sub button[type='button']:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+p.para.paraName.paraotp {
+    margin-bottom: 6px;
+}

@@ -1,0 +1,465 @@
+.stdinfo {
+	width: 1155px;
+	padding-bottom: 13px;
+}
+
+.personal-hd h1 span {
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+.per-detail {
+	background: #fff;
+	width: 1157px;
+	padding: 32px;
+}
+
+.image-person {
+	width: 93px;
+	height: 93px;
+	background: red;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.margin0-76 {
+	margin: 0px 76px;
+	margin-bottom: 29px;
+}
+
+.P-m {
+	padding: 45px 0px;
+}
+
+/* second box */
+
+.rooms {
+	/* background: #fff; */
+	height: 122px;
+	margin-bottom: 55px;
+	padding-left: 50px;
+}
+
+.hd-main {
+	font-size: 20px;
+	color: #06071d;
+	font-weight: 700;
+}
+
+/* third box */
+
+.immunization {
+	width: 1173px;
+	min-height: 126px;
+}
+
+.immunization p {
+	font-size: 15px;
+	color: #818181;
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 41px;
+}
+
+.recomd {
+	width: 564px;
+	height: 234px;
+	background: #fff;
+	padding: 51px;
+	margin-top: 32px;
+}
+
+.recomd-imm {
+	width: 564px;
+	min-height: 234px;
+	background: #fff;
+	padding: 51px;
+	margin-top: 32px;
+}
+
+.box-imm {
+	display: inline-block;
+	position: relative;
+}
+
+.hd-two {
+	font-size: 18px;
+	color: #06071d;
+	font-weight: 700;
+}
+
+.contact-detail p {
+	font-size: 14px;
+	color: #818181;
+}
+
+.btnss {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.contact-table {
+	width: 1158px;
+	margin: auto;
+	padding: 13px 23px 26px;
+	background: #fff;
+}
+
+.SettingsIcon {
+	margin-right: 4px;
+	padding: 5px 0 8px 0;
+	border-radius: 50%;
+	border: 2px solid blue;
+}
+
+/* table bottom */
+
+.tr-blue {
+	background: #e4f3ff;
+	height: 56px;
+}
+
+tr.records {
+	height: 51px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.records-second {
+	height: 51px;
+}
+
+.Immunizations-table {
+	padding: 11px 31px;
+	width: 1161px;
+}
+
+.Immunizations-inner {
+	width: 1161px;
+	margin: auto;
+}
+
+.age-height {
+	height: 56px;
+}
+
+.tick-wrapper i {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 20px;
+}
+
+.recomd textarea {
+	/* margin-top: 6px; */
+	background: transparent;
+	font-size: 17px;
+	outline: none;
+	line-height: 48px;
+	height: 41px;
+	font-weight: 800;
+	color: #000;
+	resize: none;
+}
+
+.recomd h4 {
+	font-size: 15px;
+	color: #595969;
+	font-weight: 700;
+	padding-bottom: 4px;
+}
+
+.pick-center {
+	text-align: center;
+}
+
+.std-parent {
+	color: #656674;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* add contact  */
+
+.hd-pickup {
+	color: #595969;
+	font-size: 12px;
+	padding-bottom: 14px;
+	font-weight: 400;
+}
+
+.option-pickup {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 800;
+	width: 84px;
+}
+
+.option-pickup span {
+	width: 56px;
+	height: 80px;
+	/* background: #4DA0EE; */
+	border-radius: 100%;
+}
+
+.option-pickup span i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 29px;
+}
+
+.option-pickup {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 800;
+}
+
+.option-pickup span {
+	width: 26px;
+	height: 25px;
+	/* background: #4DA0EE; */
+	border: 1px solid #4da0ee;
+	border-radius: 100%;
+	display: inherit;
+	color: #fff;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.option-pickup span i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 29px;
+}
+
+.ppinputoverlay {
+	position: absolute;
+	top: 37%;
+	left: 16%;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	gap: 2px;
+}
+
+.pic-upload-overlay:hover .ppinputoverlay {
+	opacity: 1;
+}
+
+.bg-white.rounded.p-32.mx-auto {
+	width: 1142px;
+}
+
+.recomd h4 {
+	font-size: 14px col;
+	font-size: 14px;
+	color: #595969;
+}
+
+.recomd h5 {
+	font-size: 20px col;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 800;
+}
+
+.center-btn {
+	text-align: center;
+}
+
+.image-top {
+	margin-top: 51px;
+}
+
+/* inpuut contact  */
+
+.contact-width {
+	width: 270px;
+	margin-right: 30px;
+}
+
+.width-first-name {
+	width: 100%;
+	font-size: 99px;
+}
+
+.width-relation-with-child {
+	width: 100%;
+}
+
+/* .contact-width.last-name-width {
+    width: 372px;
+    margin-right: 12px;
+} */
+.editwidth {
+	margin: auto;
+	width: 1157px;
+	padding-bottom: 25px;
+	background: #fff;
+	margin-bottom: 100px;
+}
+
+.white-back {
+	width: 100%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.field-margin {
+	margin-bottom: 41px;
+	margin-right: 50px;
+}
+
+.center-btn button {
+	margin-right: 14px;
+}
+
+.icon-color button span {
+	color: #000;
+	font-size: 21px;
+}
+
+.personal-hd.info-hd h1 span {
+	margin-right: -3px;
+}
+
+.ppinputoverlay.personaledit {
+	top: 20%;
+	left: 40%;
+}
+
+span.addstd {
+	vertical-align: initial;
+	margin-left: 4px;
+}
+
+/* img.fiterimg {
+    margin-right: 12px;
+} */
+
+span.spacebtn {
+	margin-left: 6px;
+}
+
+.fiterimg {
+	margin-right: 8px;
+}
+
+.ppinputoverlay.contactupload {
+	left: 36%;
+}
+
+.personal-margin {
+	margin-left: 41px;
+}
+
+.btnedit {
+	background: #fff;
+	width: 100%;
+}
+
+.mar-no {
+	margin-right: 0px;
+}
+
+.recomd.notesrecord textarea {
+	height: 68px !important;
+	overflow-y: auto !important;
+	line-height: 18px;
+}
+
+.tick-wrapper-edit-dates {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border: 1px #4da0ee solid;
+	border-radius: 40px;
+	padding: 9px 9px 8px 8px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.tick-wrapper-edit-dates i {
+	font-size: smaller;
+}
+
+.med-table-headers {
+	color: #01306c;
+}
+
+.remove-attachment {
+	position: absolute;
+	top: -10px;
+	right: 30px;
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+	width: 14px;
+	text-align: center;
+	border-radius: 100%;
+	color: #fff;
+	height: 14px;
+	display: flex;
+	text-align: center;
+	/* margin: auto; */
+	align-items: center;
+	justify-content: center;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.width-30-fields .MuiFormControl-root {
+	width: 30%;
+}
+
+.medical-info-1 {
+	max-width: 364.3px;
+}
+
+.medical-info-2 {
+	max-width: 364.3px;
+}
+
+.medical-info-3 {
+	max-width: 364.3px;
+}
+
+.fileUpload-div {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	justify-content: center;
+	text-align: center;
+	background: #f6fbfe;
+	border: 2px #6079f4;
+	border-style: dashed;
+	margin-bottom: 20px;
+}
+.cloud-div {
+	margin: 0px 60px 0px 0px;
+	width: 100%;
+}
+.cloud-div p {
+	font-size: 20px;
+	padding: 15px 0px 15px 0px;
+	align-self: center;
+}
+.cloud-div span {
+	font-size: 20px;
+	align-self: center;
+	color: #757575;
+}
+.cloud {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}

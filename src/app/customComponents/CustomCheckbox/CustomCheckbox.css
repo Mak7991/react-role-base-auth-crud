@@ -1,0 +1,181 @@
+.switch {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 18px;
+    height: 29px;
+    width: 49px;
+    background: #EFFDF0;
+    border-radius: 1em;
+    padding: 2px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.switch-disabled {
+    border: 1px solid grey;
+    background: #E9E9E9;
+}
+.switch div {
+    height: 20px;
+    width: 20px;
+    border-radius: 1em;
+    background: #04C01C;
+    opacity: 1;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+}
+.switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    background: #CFCFCF;
+}
+span.switch-btn {
+    margin-left: 6px;
+}
+.switch input {
+    position: absolute;
+    opacity: 0;
+}
+@media screen and (max-width: 1366px), screen and (max-height: 693px) {
+    .switch {
+        display: inline-block;
+        border: 1px solid green; /* border-radius: 18px; */
+        height: 22px;
+        width: 32px;
+        border-radius: 1em;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .switch div {
+        margin-top: 0.5px;
+        height: 15px;
+        width: 14px;
+        border-radius: 1em;
+        background: transparent linear-gradient(120deg, #18CC27 0%, #67F678 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+    }
+    .switch input:checked + div {
+        -webkit-transform: translate3d(100%, 0, 0);
+        -moz-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        background: #CFCFCF;
+    }
+    .switch input {
+        position: absolute;
+        opacity: 0;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+    }
+}
+@media screen and (max-width: 1763px) {
+    .switch {
+        height: 27px;
+        width: 46px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1660px) {
+    .switch {
+        height: 27px;
+        width: 44px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1641px) {
+    .switch {
+        height: 26px;
+        width: 41px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .switch {
+        display: inline-block;
+        border: 1px solid green;
+        border-radius: 18px;
+        height: 27px;
+        width: 43px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1519px) {
+    .switch {
+        height: 25px;
+        width: 40px;
+    }
+    .switch div {
+        height: 17px;
+        width: 17px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1491px) {
+    .switch {
+        height: 25px;
+        width: 37px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1463px) {
+    .switch {
+        height: 23px;
+        width: 34px;
+    }
+    .switch div {
+        height: 15px;
+        width: 15px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1455px) {
+    .switch {
+        height: 23px;
+        width: 34px;
+    }
+    .switch div {
+        height: 15px;
+        width: 15px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}
+@media screen and (max-width: 1434px) {
+    .switch {
+        height: 22px;
+        width: 33px;
+    }
+    .switch-disabled {
+        border: 1px solid grey;
+        background: #E9E9E9;
+    }
+}

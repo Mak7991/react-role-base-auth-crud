@@ -1,0 +1,102 @@
+.form-heading {
+	font-size: 20px;
+	font-weight: 700;
+	color: #06071d;
+}
+.addParent-main-div{
+	padding: 50px 50px 50px 50px;
+	overflow: scroll;
+}
+.enroll-form-container {
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 6px 12px 30px #dfecf580;
+	border-radius: 10px;
+	margin-top: 18px;
+	/* padding: 60px 90px 60px 70px; */
+}
+.form-addparent-container {
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	box-shadow: 6px 12px 30px #dfecf580;
+	border-radius: 10px;
+	margin-top: 18px;
+	padding: 40px 60px;
+	margin-bottom: 100px;
+}
+
+.form-section-heading {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.addparent-field-flex .MuiFormControl-root.MuiTextField-root {
+	height: 50px;
+	margin-right: 2%;
+	margin-bottom: 30px;
+	width: 35%;
+}
+.addparent-field-flex .MuiFormControl-root.MuiTextField-root label {
+	font-size: 15px;
+	color: #595969;
+	font-weight: 400;
+}
+
+.student-select {
+	margin-right: 20%;
+	/* margin-bottom: 60px; */
+}
+
+.hd-pickup {
+	color: #595969;
+	font-size: 12px;
+	padding-bottom: 14px;
+	font-weight: 400;
+}
+
+.option-pickup {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 800;
+	width: 84px;
+}
+
+.option-pickup span {
+	width: 56px;
+	height: 80px;
+	/* background: #4DA0EE; */
+	border-radius: 100%;
+}
+
+.option-pickup span i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 29px;
+}
+
+.option-pickup {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 800;
+}
+
+.option-pickup span {
+	width: 30px;
+	height: 30px;
+	/* background: #4DA0EE; */
+	border: 1px solid #4da0ee;
+	border-radius: 100%;
+	display: inherit;
+	color: #fff;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.option-pickup span i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 29px;
+}

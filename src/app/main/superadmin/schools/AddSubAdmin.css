@@ -1,0 +1,244 @@
+.box-input {
+	background-color: #fff;
+	width: 1182px;
+	box-shadow: 6px 12px 30px #dfecf580;
+	border-radius: 10px;
+	padding: 65px 97px;
+	margin-top: 18px;
+}
+
+
+
+.editSchoolStyle {
+	height: 71px;
+	/* margin-right: 70px; */
+	margin-bottom: 40px;
+	width: 25%;
+}
+
+.edit-btn {
+	background: transparent;
+	border-radius: 23px;
+	border: 2px solid blue;
+	width: 118px;
+	height: 46px;
+	color: blue;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+	margin-right: 30px;
+}
+.edit-btn:hover {
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+	color: white;
+}
+
+.box-input .add-school-btn {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	border-radius: 23px;
+	width: 191px;
+	height: 42px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: block;
+	text-align: center;
+}
+.box-input .add-school-btn:hover {
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+}
+
+.box-input .MuiFormControl-root.MuiTextField-root {
+	height: 71px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	width: 28%;
+}
+
+.box-input .hd-main {
+	font-size: 20px;
+	font-weight: 700;
+
+	color: #06071d;
+}
+
+.box-input .select-input .MuiInputBase-root.MuiInput-root.MuiInput-underline {
+	width: 25%;
+	margin-right: 70px;
+	margin-bottom: 70px;
+}
+
+.box-input .MuiFormControl-root.MuiTextField-root label {
+	/* font-size: 15px; */
+	color: #595969;
+	font-weight: 400;
+}
+
+.box-input .textarea#standard-multiline-flexible {
+	font-size: 22px;
+	color: #000;
+	font-weight: 700;
+}
+
+.box-input .add-school-btn {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	border-radius: 23px;
+	width: 191px;
+	height: 42px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: block;
+	text-align: center;
+}
+
+button.add-school-btn.cen-btn {
+	margin: auto;
+}
+
+.cancel {
+	width: 184px;
+	height: 46px;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 50px;
+	margin-right: 27px;
+	box-shadow: 0px 6px 20px #86c2ff96;
+	border: 2px solid #5b81f0;
+	border-radius: 23px;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #5b81f0;
+	cursor: pointer;
+}
+.cancel:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+
+.Mui-disabled {
+	color: #000;
+}
+.save-btn {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	border-radius: 23px;
+	width: 184px;
+	height: 46px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 600;
+}
+.save-btn:hover {
+	background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+}
+
+.add-school-admin {
+	width: 120px;
+	height: 40px;
+	border: 2px solid #5b81f0;
+	border-radius: 23px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #5b81f0;
+}
+.add-school-admin:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+.school-pp-overlay {
+	position: absolute;
+	top: 40%;
+	left: 38%;
+	opacity: 0;
+	gap: 2px;
+	cursor: pointer;
+}
+.school-camera-holder:hover .school-pp-overlay {
+	opacity: 1;
+}
+.school-camera-holder {
+	position: relative;
+	height: 120px;
+	margin-top: 5px;
+}
+.country-width {
+	width: 28%;
+}
+
+.box-input h1 {
+	font-size: 20px;
+}
+
+.overall-box{
+max-width: 86%;
+margin: auto;
+}
+
+
+
+@media screen and (max-width: 1366px), screen and (max-height: 693px) {
+	.hd-main {
+		font-size: 20px;
+		/* margin-left: 32px; */
+		font-weight: 700;
+		color: #06071d;
+	}
+	.overall-box {
+		max-width: 95%;
+	}
+	.box-input {
+	
+	    width: 95%;
+		margin: auto;
+		padding: 39px 56px;
+		margin-top: 18px;
+	
+	}
+	
+	.edit-btn {
+		background: transparent;
+		border-radius: 23px;
+		border: 2px solid blue;
+		width: 118px;
+		height: 46px;
+		color: blue;
+		font-size: 18px;
+		text-align: center;
+		cursor: pointer;
+		font-weight: 600;
+		margin-right: 30px;
+	}
+	.edit-btn:hover {
+		background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+		color: white;
+	}
+
+	.save-btn {
+		background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+		border-radius: 23px;
+		width: 184px;
+		height: 46px;
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	.save-btn:hover {
+		background: transparent linear-gradient(270deg, #676af6 0%, #36cee5 100%) 0% 0% no-repeat padding-box;
+	}
+}
+

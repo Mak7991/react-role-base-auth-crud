@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="81" viewBox="0 0 81 81">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.884" x2="0.195" y2="0.88" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cef3d8"/>
+    </linearGradient>
+  </defs>
+  <g id="awesome-icon" transform="translate(-280.875 -784.875)">
+    <g id="Ellipse_108" data-name="Ellipse 108" transform="translate(280.875 784.875)" stroke="#44c81e" stroke-width="0.75" fill="url(#linear-gradient)">
+      <circle cx="40.5" cy="40.5" r="40.5" stroke="none"/>
+      <circle cx="40.5" cy="40.5" r="40.125" fill="none"/>
+    </g>
+    <g id="Tick" transform="translate(299.784 813.38)">
+      <g id="Group_10091" data-name="Group 10091" transform="translate(0 0)">
+        <g id="Group_10090" data-name="Group 10090" transform="translate(0 0)">
+          <path id="Path_34956" data-name="Path 34956" d="M162.834,166.349a3.158,3.158,0,0,0-4.466-.118L138.2,185.358l-9.62-9.877a3.159,3.159,0,0,0-4.526,4.408L135.848,192a3.16,3.16,0,0,0,4.438.088l22.43-21.272A3.158,3.158,0,0,0,162.834,166.349Z" transform="translate(-123.158 -165.364)" fill="#44c81e"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

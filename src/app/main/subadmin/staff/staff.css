@@ -1,0 +1,208 @@
+.staff-cont {
+	min-width: 95%;
+	margin-top: 5px;
+	height: 100vh;
+	/* overflow: hidden; */
+}
+
+.staff-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+}
+
+.staff-table-header {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+.staffFileHeader {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+
+.edit-staff-cont {
+	min-width: 95%;
+	margin-top: 45px;
+	margin-bottom: 80px;
+	margin-left: 20px;
+}
+.marginrightt{
+	margin-right: 11px;
+}
+
+.edit-staff-form-cont {
+	margin-top: 20px;
+	height: auto;
+	padding: 50px 50px;
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.edit-staff-form-heading {
+	font-weight: 700;
+	font-size: medium;
+	margin-left: 50px;
+}
+
+.staff-pp-overlay {
+	position: absolute;
+	top: 40%;
+	left: 14%;
+	opacity: 0;
+	gap: 2px;
+}
+
+.camera-holder:hover .staff-pp-overlay {
+	opacity: 1;
+}
+
+.staff-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+}
+
+.staff-position {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+}
+
+.staff-email {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+
+/* staffinfomation */
+
+.main-div {
+	background-color: white;
+	padding: 68px 75px 61px;
+	border-radius: 8px;
+	flex: wrap 1;
+	height: 380px;
+}
+
+span.insert-form input {
+	width: 430px;
+	font-weight: 500;
+}
+
+span.insert-form.margin-bottom {
+	margin-bottom: 21px;
+}
+
+.hd-margin {
+	margin-bottom: 51px;
+}
+
+/* .main-div.add-div {
+    height: auto;
+} */
+
+.staff-main {
+	width: 1192px;
+}
+
+.main-div.add-div.staff-div {
+	height: 477px;
+}
+
+.input-bottom {
+	text-transform: capitalize;
+}
+
+.staff-div {
+	height: auto;
+	padding: 0px 50px;
+	min-width: 100%;
+}
+
+.hd-input {
+	font-size: 14px;
+}
+.text-input {
+	font-size: 16px;
+}
+
+.staf-infoo {
+	margin-bottom: 42px;
+	margin-left: 0px;
+}
+.add_staff_main{
+	overflow: scroll;
+}
+
+.staff-detail {
+	margin: 0px;
+	height: auto;
+	padding: 50px 50px;
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	margin-bottom: 90px;
+}
+@media (max-width: 1456px) {
+	.text-input {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1366px) {
+	.hd-input {
+		font-size: 12px;
+	}
+	.text-input {
+		font-size: 13px;
+	}
+}
+.file-cross-img {
+	top: 10px;
+	left: 80px;
+}
+.file-cross {
+    position: absolute;
+    background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+    width: 18px;
+	top: -12px;
+    right: -5px;
+    height: 18px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    font-weight: 700;
+}
+.uplaod_main_div{
+	display: flex;
+}
+.uplaod_div{
+	min-width: 100px;
+	margin-top: 12px;
+}
+.attach_file_div{
+	position: relative;
+	min-width: 100px;
+}
+.upload_file_div{
+	display: flex;
+	overflow-y: auto;
+	padding: 12px;
+	min-width: 500px;
+}
+.upload_file_div_staffView{
+	display: flex;
+	overflow-y: auto;
+	min-width: 500px;
+}
+.staff_fileUpload_table {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+	/* width: 50%; */
+}

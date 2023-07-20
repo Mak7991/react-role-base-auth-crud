@@ -1,0 +1,24 @@
+.add-camera-div {
+	min-width: 95%;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	padding-bottom: 50px;
+}
+.form-main-div{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 20px;
+	max-width: 94%;
+	padding: 50px;
+}
+.form-inner-div{
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.add-camera-heading{
+    font-size: 18px;
+    line-height: 2.4;
+}

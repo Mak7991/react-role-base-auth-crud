@@ -1,0 +1,135 @@
+
+
+
+/* check in */
+
+.btn-mar button {
+    margin-right: 17px;
+}
+.para h1 {
+	padding-bottom: 0px;
+}
+.para p {
+    padding-left: 53px;
+    color: #000;
+    /* padding-bottom: 21px; */
+    margin-top: -15px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.help-btn i {
+    vertical-align: bottom;
+    font-size: 15px;
+    margin-right: 0px;
+}
+.help-btn {
+    display: inline-block;
+    color: #5b81f0;
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.pdf-heading{
+	display: flex;
+	justify-content: center;
+}
+
+/* table content */
+
+.report-std{
+	font-size: 12px;
+    text-transform: capitalize;
+    color: #06071d;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+
+.email-width {
+    width: 149px;
+}
+
+.student-slttttt {
+    margin-right: 5%;
+    /* margin-bottom: 60px; */
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+.student-age,
+.parent-realtion {
+	font-size: 10px;
+}
+
+.student-age-font {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+}
+.studentTableHeader {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+
+.studentTableHeaderActivity{
+	text-align: center !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+
+
+
+.attendanceReportHeader {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+.filters-div{
+	margin-left: 60px;
+}
+.savedclip-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+	.roster-main-div {
+		display: block;
+		width: auto;
+	}
+	.para-one-content {
+		width: 100%;
+		height: 400px;
+		display: block;
+		align-items: center;
+	}
+	.para-one-content p {
+		width: 100%;
+		font-size: 18px;
+		margin-left: 62px;
+	}
+	.paragraph-one {
+		margin-top: 15px;
+	}
+	.paragraph-two {
+		margin-top: 40px;
+	}
+}
+
+
+
+
+
+
+

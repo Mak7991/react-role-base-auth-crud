@@ -1,0 +1,260 @@
+.school-list-headerr {
+	align-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	/* width: 90%; */
+	margin: auto;
+	font-weight: 700;
+}
+
+.totalRooms-heading {
+	font-size: 20px;
+	line-height: 2.4;
+}
+
+h1.left-hd {
+	margin: 0px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid grey;
+	padding-bottom: 41px;
+	margin-bottom: 38px;
+}
+
+.setting-bg {
+	padding: 32px 32px 52px 63px;
+
+	margin-bottom: 100px;
+	/* max-width: fit-content; */
+}
+.editsetting-bg {
+	padding: 32px 32px 33px 63px;
+	/* margin-bottom: 100px; */
+}
+.setting-cont {
+	min-width: 95%;
+	margin-top: 5px;
+	height: auto;
+}
+
+.check-div {
+	/* height: auto; */
+	padding-bottom: 73px;
+}
+
+.setinfo {
+	/* width: 1155PX; */
+	/* padding-bottom: 13px;     */
+}
+
+.border-bottom {
+	/* border-bottom: 1px solid grey; */
+	padding-bottom: 41px;
+}
+
+/* second para */
+
+.point-onee {
+	width: 35px;
+	height: 35px;
+
+	font-weight: 800;
+	text-align: center;
+	background: transparent linear-gradient(215deg, #fff, #cce0ff) 0 0 no-repeat padding-box;
+	border: 1px solid #6372f4;
+	opacity: 1;
+	border-radius: 100%;
+	color: #6372f4;
+	/* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.para-one-contentt h2 {
+	font-weight: 600;
+	padding-bottom: 11px;
+	/* display: inline-block; */
+}
+
+.para-one-headingg {
+	display: inline-block;
+}
+
+.para-one-contentt p {
+	width: 100%;
+	font-size: 15px;
+	/* margin-left: 0px; */
+	color: grey;
+}
+
+.totalRooms-headingg {
+	font-size: 20px;
+	line-height: 2.4;
+	display: block;
+}
+
+/* .quick-scan {
+   
+    width: 50%;
+    vertical-align: top;
+} */
+/* .para-one-contentt {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+.actions {
+    display: inline-block;
+}
+
+.quick-scan {
+    padding-top: 21px;
+}
+
+.switch {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 18px;
+    height: 27px;
+    width: 43px;
+} */
+
+/* edit */
+
+.insert-field {
+	margin-bottom: 27px;
+	/* margin-right: 201px; */
+	width: 90%;
+}
+.text-field {
+	width: 100%;
+	/* margin-right: 187px; */
+}
+
+.center-btn {
+	text-align: center;
+}
+.last-field {
+	width: 90%;
+}
+
+.center-btn.margin-btn {
+	margin-top: 48px;
+}
+
+.half-field {
+	width: 45%;
+	display: inline-block;
+	/* margin-right: 62px; */
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.center-btn.margin-btn button {
+	margin-right: 31px;
+}
+
+.select-country {
+	width: 100%;
+}
+
+.field-main {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 27px;
+}
+.setting-pp-overlay {
+	position: absolute;
+	top: 40%;
+	left: 38%;
+	opacity: 0;
+	gap: 2px;
+	cursor: pointer;
+}
+.setting-camera-holder:hover .setting-pp-overlay {
+	opacity: 1;
+}
+.setting-camera-holder {
+	position: relative;
+	height: 120px;
+}
+
+/* top bar css  */
+
+.messaging-top-bar {
+	background-color: #fff;
+	box-shadow: 0px 1px 6px #153f835d;
+	height: 68px;
+}
+
+.messaging-personal-hd h1 span {
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+.messaging-personal-hd.info-hd h1 span {
+	margin-right: -3px;
+}
+
+.messaging-active-hd {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 15px;
+}
+
+h1.messaging-hd a {
+	color: #06071d;
+	font-weight: 600;
+}
+
+.messaging-hd {
+	font-size: 18px;
+	margin-right: 20px;
+	align-self: center;
+	margin-top: 22px;
+}
+
+h1.messaging-hd a:hover {
+	color: #5b81f0;
+	font-weight: 600;
+	border-bottom: 6px solid #5b81f0;
+	padding-bottom: 19px;
+}
+
+.rooms-list-containers {
+	height: 330px;
+}
+
+.load-spinner {
+	padding: 15px 20px;
+}
+/* end top bar css */
+
+.content-div {
+	height: calc(100vh - 400px);
+	padding: 20px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.header {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.description {
+	max-width: 360px;
+	align-self: center;
+	margin: 15px 0;
+}
+
+.setting-pos {
+	/* position: relative;
+	left: 48px; */
+}

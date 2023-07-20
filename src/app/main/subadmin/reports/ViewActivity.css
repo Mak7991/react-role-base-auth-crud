@@ -1,0 +1,31 @@
+.box-padding {
+	padding: 11px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+.checkin-tick-icon {
+	background-color: #25e017;
+	border-radius: 50%;
+	padding: 5px;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.black-cover {
+	background-color: #000000;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

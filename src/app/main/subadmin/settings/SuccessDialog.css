@@ -1,0 +1,52 @@
+.account-popup {
+	width: 400px;
+	height: 350px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.account-popup h1 {
+	font-size: 28px;
+	color: #000000;
+	font-weight: 700;
+	padding-bottom: 14px;
+}
+
+.account-icon-span {
+	width: 77px;
+	height: 77px;
+	/* border: 3px solid red; */
+	border-radius: 50%;
+	line-height: 82px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	margin-bottom: 41px;
+}
+
+.account-icon-span:before {
+	position: absolute;
+	content: '';
+	width: 25px;
+	height: 2px;
+	background: #34dd7a;
+	bottom: -25px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+
+.account-disable-text {
+	/* font-family: Proxima, Calibri; */
+}
+.account-popup p {
+	font-size: 17px;
+	color: grey;
+	width: 317px;
+	font-weight: 600;
+}

@@ -1,0 +1,513 @@
+.reports-main-div {
+	height: auto;
+	margin-bottom: 120px;
+}
+.room-reports-box {
+	width: 100%;
+	padding: 30px;
+}
+.room-reports-box h3 {
+	color: #5b81f0;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.room-reports-box p {
+	color: #000000;
+}
+
+.student-reports-box {
+	width: 100%;
+	padding: 30px;
+}
+.student-reports-box h3 {
+	color: #5b81f0;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.student-reports-box p {
+	color: #000000;
+}
+
+.download-reports-box {
+	width: 100%;
+	padding: 30px;
+}
+.download-reports-box h3 {
+	color: #5b81f0;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.download-reports-box p {
+	color: #000000;
+}
+
+/* check in */
+
+.btn-mar button {
+	margin-right: 17px;
+}
+.schoolReport-topdiv p {
+	padding: 0;
+	color: #000;
+	margin-top: -15px;
+	font-weight: 500;
+	padding-bottom: 19px;
+	margin-left: 56px;
+}
+
+.help-btn i {
+	vertical-align: bottom;
+	font-size: 15px;
+	margin-right: 0px;
+}
+.help-btn {
+	display: inline-block;
+	color: #5b81f0;
+	font-size: 13px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.pdf-heading {
+	display: flex;
+	justify-content: center;
+}
+
+/* table content */
+
+.report-std {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.report-std-email {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+	word-break: break-word;
+}
+
+.email-width {
+	width: 149px;
+}
+
+.student-slttttt {
+	margin-right: 5%;
+	/* margin-bottom: 60px; */
+	width: 45%;
+}
+
+/* button.add-btn {
+	font-size: 14px;
+}
+
+button.add-btn.import-btn {
+	height: 38px;
+}
+
+button.import-btn {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+button.import-btn {
+	font-size: 14px;
+	text-transform: capitalize;
+	height: 38px;
+}
+
+button.add-btn.enroll-btn {
+	width: 147px;
+	height: 38px;
+} */
+
+.activity-table-cont {
+	margin-top: 20px;
+	height: 55vh;
+	/* padding: 0 30px 30px 30px; */
+}
+
+/* .student-font {
+	font-size: 12px;
+	font-size: 14px;
+    text-transform: capitalize;
+} */
+
+/* .parent-name-student {
+	text-transform: capitalize;
+	width: 120px;
+    font-size: 14px;
+    color: #06071D;
+} */
+
+.parent-realtion {
+	font-size: 10px;
+}
+.student-report-age {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+.student-age-font {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+}
+
+.studentTableHeaderActivity {
+	text-align: center !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+/* .parent-relation.self-start.truncate {
+	font-size: 11.6667;
+	text-transform: capitalize;
+} */
+
+/* .parent-relation.self-start.truncate {
+	font-size: 11.6667;
+	text-transform: capitalize;
+} */
+.attendanceReportHeader {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+.filters-div {
+	margin-left: 60px;
+}
+.check-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+
+	font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+	.roster-main-div {
+		display: block;
+		width: auto;
+	}
+	.para-one-content {
+		width: 100%;
+		height: 400px;
+		display: block;
+		align-items: center;
+	}
+	.para-one-content p {
+		width: 100%;
+		font-size: 18px;
+		margin-left: 62px;
+	}
+	.paragraph-one {
+		margin-top: 15px;
+	}
+	.paragraph-two {
+		margin-top: 40px;
+	}
+}
+
+.schoolTableHeader {
+	color: #1f479c;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.help-btn.cursor-pointer img {
+	display: inline-block;
+	width: 19px;
+	margin-right: 5px;
+}
+
+.width-name {
+	width: 150px;
+}
+
+.circle-bar {
+	margin-right: 25px;
+	display: inline-block;
+}
+.backBtn-img {
+	margin-right: 8px;
+}
+.enrolled-cont {
+	width: 95%;
+	margin-top: 20px;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	overflow: hidden;
+}
+.reports-topDiv p {
+	padding: 0;
+	color: #000;
+	margin-top: -15px;
+	font-weight: 500;
+	padding-bottom: 19px;
+	margin-left: 56px;
+}
+
+.parent-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	width: 100px;
+	font-weight: 700;
+}
+.active-label {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(12, 230, 12);
+}
+.disable-label {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(230, 12, 12);
+}
+.student-enroll-date {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+}
+.enroll-date {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+/* allergy report */
+
+.allergy-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+}
+
+.allergy-cont {
+	width: 95%;
+	margin-top: 20px;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+/* medication report */
+
+.report-medication {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.medication-homeroom {
+	text-transform: capitalize;
+	color: rgb(99, 135, 212);
+	font-size: 12px;
+}
+.medication-parent-relation {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.medication-parent-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	width: 120px;
+	font-weight: 700;
+}
+
+/* Contact report */
+.contact-homeroom {
+	text-transform: capitalize;
+	color: rgb(99, 135, 212);
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.report-contact {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+	/* margin-bottom: 20px; */
+}
+.report-contact-email {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+	text-transform: lowercase;
+	word-break: break-word;
+	/* margin-bottom: 20px; */
+}
+.contact-parent-relation {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.contact-parent-name {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	width: 120px;
+	font-weight: 700;
+}
+.contact-col {
+	display: flex;
+	flex-direction: column;
+	row-gap: 34px;
+}
+.contact-email {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+.contact-phone {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+.ratio-numbers {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+.package-type {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+.package-amount {
+	font-size: 12px;
+	color: #06071d;
+	font-weight: 700;
+}
+
+/* royalties report */
+
+.report-royalties {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+}
+.report-royalties-time {
+	font-size: 10px;
+	font-weight: 600;
+}
+.created-time {
+	color: #656674;
+	font-size: smaller;
+}
+/* meal report */
+
+.meal-table-cont {
+	margin-top: 20px;
+	height: 60vh;
+	padding: 0 30px 30px 30px;
+}
+
+.report-meal {
+	font-size: 12px;
+	text-transform: capitalize;
+	color: #06071d;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+/* staff report */
+
+.parent-column {
+	width: 120px;
+}
+.student-column {
+	width: 120px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.grid-cols-14 {
+	grid-template-columns: repeat(14, minmax(0, 1fr));
+}
+
+.due-overdue-table-wrapper {
+	height: 55vh;
+}
+
+.dose-number {
+	font-weight: 300;
+	font-size: 10px;
+	color: #000;
+}
+
+.dueoverdueHeader {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+.dueoverdueText {
+	color: #000;
+	font-weight: 700;
+	font-size: 12px;
+}
+.imunizationData {
+	font-weight: 700;
+	font-size: 12px;
+}
+.imunizationSchoolExempted {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff8c7;
+	font-size: 12px;
+	font-weight: 700;
+}
+@media screen and (max-width: 1366px) {
+	.imunizationDate {
+		font-weight: 700;
+		font-size: 10px !important;
+		display: contents;
+	}
+	.imunizationSchoolExempted {
+		font-size: 10px !important;
+	}
+}
+.student-div {
+	width: 150px;
+}
+
+.report-checkin-time {
+	font-size: 10px;
+	font-weight: 600;
+}
+.images-popup {
+	width: 600px;
+	height: 600px;
+	padding-top: 10px;
+}
+.images-popup-header {
+	align-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	width: 100%;
+	margin: auto;
+	font-weight: 700;
+}
+.media-list-cont {
+	height: 75vh;
+	border: 2px lightgray solid;
+	border-radius: 10px;
+	overflow-y: auto;
+	width: 90%;
+	margin: auto;
+}

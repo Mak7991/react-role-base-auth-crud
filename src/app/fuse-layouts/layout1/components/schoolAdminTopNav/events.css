@@ -1,0 +1,43 @@
+.events-wrapper {
+	margin: 15px 2px 0 2px;
+	padding: 3px 10px;
+}
+
+.events-icon-wrapper {
+	padding: 2px;
+}
+
+.events-icon {
+	width: 33px;
+}
+
+.events-text {
+	font-weight: 600;
+	font-size: smaller;
+	color:black;
+}
+.events {
+    margin: 0px 16px;
+}
+
+
+.sci-icon-wrapper {
+
+	padding: 2px;
+
+	padding-top: 19px;
+}
+
+.sci-icon {
+	width: 35px;
+}
+
+.sci-text {
+	font-weight: 700;
+	font-size: smaller;
+}
+
+.sci-icon-wrapper.icon-end {
+
+    margin-left: 14px;
+}

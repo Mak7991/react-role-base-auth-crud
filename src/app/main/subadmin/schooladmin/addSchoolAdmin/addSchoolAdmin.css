@@ -1,0 +1,73 @@
+.add-schoolAdmin-div {
+	min-width: 95%;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	padding-bottom: 50px;
+}
+.form-admin-main-div {
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 20px;
+	max-width: 94%;
+	padding: 50px;
+}
+.form-admin-inner-div {
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.add-admin-heading {
+	font-size: 18px;
+	line-height: 2.4;
+}
+.profile-div {
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+}
+.profile-image-div {
+	/* width: 100%; */
+	margin-top: 20px;
+	position: relative;
+	height: 160px;
+	width: 160px;
+}
+
+
+.schooladmin-pp-overlay {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	opacity: 0;
+	gap: 2px;
+}
+
+.profile-image-div:hover  .schooladmin-pp-overlay {
+	opacity: 1;
+}
+.view-subadmin input[type=text]:disabled {
+	font-weight: bold;
+	color: black;
+  }
+.edit-subadmin input[type=text]:disabled {
+	color: black;
+  }
+
+.rp-input{
+	font-size: 14px;
+}
+@media only screen and (max-width: 1500px) {
+	.profile-div {
+		grid-template-columns: 0.4fr 1.2fr;
+	}
+	.profile-image-div {
+		height: 145px;
+		width: 145px;
+	}
+	.profile-image {
+		height: 145px !important;
+		width: 145px !important;
+	}
+	
+}

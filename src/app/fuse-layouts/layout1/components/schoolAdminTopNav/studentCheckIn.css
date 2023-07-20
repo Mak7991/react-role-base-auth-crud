@@ -1,0 +1,15 @@
+.sci-icon-wrapper {
+	color: #6c7bf4;
+	padding: 2px;
+	margin-left: 25px;
+	padding-top: 19px;
+}
+
+.sci-icon {
+	width: 35px;
+}
+
+.sci-text {
+	font-weight: 700;
+	font-size: smaller;
+}

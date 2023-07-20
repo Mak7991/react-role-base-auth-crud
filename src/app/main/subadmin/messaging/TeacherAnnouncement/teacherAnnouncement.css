@@ -1,0 +1,40 @@
+.announcement-container {
+    width: 93%;
+    margin: auto;
+    margin-top: 5px;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.parent-announcement-table-cont {
+    margin-top: 30px;
+    height: 60vh;
+    padding: 0 30px 30px 30px;
+}
+
+.parent-announcement-table-header {
+    font-weight: 700;
+    color: rgb(31, 71, 156);
+    font-size: small;
+}
+
+.parent-announcement-age {
+    color: #656674;
+    font-size: smaller;
+}
+
+.parent-announcement-name {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #06071d;
+    font-weight: 700;
+}
+
+.parent-announcement-reinder-green {
+    color: #04C01C;
+    font-weight: 700;
+}
+.parent-announcement-reinder-red {
+    color: #FF4B4B;
+    font-weight: 700;
+}

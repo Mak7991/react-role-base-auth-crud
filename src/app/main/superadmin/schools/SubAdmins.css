@@ -1,0 +1,169 @@
+.import-btn {
+	width: 118px;
+	height: 46px;
+	border: 2px solid #5b81f0;
+	border-radius: 23px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #5b81f0;
+	margin-right: 11px;
+	cursor: pointer;
+	margin-left: 11px;
+}
+.import-btn:hover {
+	background: transparent linear-gradient(270deg, #36cee5 0%, #676af6 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+}
+.active-label {
+	padding-left: 0;
+	font-weight: bold;
+	color: #04c01c;
+}
+.disable-label {
+	padding: 6px;
+	padding-left: 0;
+	font-weight: bold;
+	color: rgb(230, 12, 12);
+}
+.school-table-header {
+	font-weight: 700;
+	color: rgb(31, 71, 156);
+	font-size: small;
+}
+.edit-btn-wrapper {
+	cursor: pointer;
+	border: 1px solid rgb(11, 0, 213);
+	border-radius: 16px;
+	padding: 7px 12px;
+	color: rgb(0, 110, 213);
+	vertical-align: middle;
+	background: rgb(216, 232, 251);
+	background: linear-gradient(90deg, rgba(216, 232, 251, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.MuiTableCell-body {
+	color: #06071d;
+	font-weight: 400;
+	max-width: 92px;
+}
+.m-auto {
+	margin: 63px auto;
+}
+.buttons-edit {
+	vertical-align: middle;
+}
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	vertical-align: middle;
+}
+.school-main-page {
+	width: 100%;
+	height: 571px;
+	position: fixed;
+	max-width: 95%;
+	padding-left: 0;
+	border-radius: 14px;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	animation: 0px;
+	bottom: 0;
+	top: 0;
+	/* margin: auto; */
+	margin-top: 3%;
+}
+span.text-lg.font-extrabold.mr-59.r-hd {
+	margin-right: 0px;
+	vertical-align: bottom;
+}
+
+@media screen and (max-width: 1366px), screen and (max-height: 693px) {
+	.school-main-page {
+		width: 100%;
+		height: 80%;
+		padding-left: 0px;
+		max-width: 97%;
+	}
+	/* .text-2xl {
+		font-size: medium;
+	} */
+	.import-btn {
+		width: 100px;
+		height: 35px;
+		border: 2px solid #5b81f0;
+		border-radius: 23px;
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 0px;
+		color: #5b81f0;
+		cursor: pointer;
+	}
+	.table-1366x657-container {
+		width: 100%;
+		height: 70vh;
+	}
+	.table-1366x657 {
+		font-size: medium;
+		padding: 20px;
+	}
+	.MuiTableCell-root {
+		padding: 15px 10px;
+		font-size: smaller;
+	}
+	.edit-btn-wrapper {
+		cursor: pointer;
+		border: 1px solid rgb(11, 0, 213);
+		border-radius: 16px;
+		padding: 5px 7px;
+		color: rgb(0, 110, 213);
+		vertical-align: middle;
+		background: rgb(216, 232, 251);
+		background: linear-gradient(
+			90deg,
+			rgba(216, 232, 251, 1) 0%,
+			rgba(255, 255, 255, 1) 100%
+		); /* font-size:10px; */
+	}
+	.edit-btn-wrapper > button {
+		font-size: xx-small;
+	}
+	.table-1366x657-container {
+		padding: 0px 15px;
+	}
+	.active-label {
+		font-size: smaller;
+		color: rgb(12, 230, 12);
+	}
+	.disable-label {
+		font-size: smaller;
+		color: rgb(230, 12, 12);
+	}
+}
+
+@media screen and (max-width: 1735px) {
+	.edit-btn-wrapper {
+		padding: 7px 8px;
+	}
+}
+@media screen and (max-width: 1613px) {
+	.edit-btn-wrapper {
+		padding: 7px 6px;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.edit-btn-wrapper {
+		cursor: pointer;
+		border: 1px solid rgb(11, 0, 213);
+		border-radius: 16px;
+		padding: 5px 3px;
+	}
+}
+@media screen and (max-width: 1538px) {
+	.edit-btn-wrapper {
+		padding: 5px 2px;
+	}
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.829" y1="0.111" x2="0.229" y2="0.929" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb960"/>
+      <stop offset="1" stop-color="#ff6f79"/>
+    </linearGradient>
+  </defs>
+  <g id="Med" transform="translate(-733.748 -324.748)">
+    <g id="Group_10001" data-name="Group 10001" transform="translate(734 325)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="18" cy="18" r="18" transform="translate(-0.252 -0.252)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="med-icon" transform="translate(743.18 334.18)">
+      <path id="Path_4062" data-name="Path 4062" d="M15.741,1.318a4.5,4.5,0,0,0-6.363,0l-4.03,4.03-4.03,4.03a4.5,4.5,0,1,0,6.363,6.363l4.03-4.03,4.03-4.03a4.5,4.5,0,0,0,0-6.363ZM6.833,14.892a3.3,3.3,0,0,1-4.666-4.666L5.772,6.62l4.666,4.667Zm8.06-8.06-3.606,3.606L6.62,5.772l3.606-3.605a3.3,3.3,0,0,1,4.666,4.666Zm0,0" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_4063" data-name="Path 4063" d="M46.871,10.149a.6.6,0,0,1-.5-.261,1.5,1.5,0,0,0-2.3-.215.6.6,0,0,1-.848-.848,2.7,2.7,0,0,1,4.138.385.6.6,0,0,1-.494.939Zm0,0" transform="translate(-32.708 -6.104)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

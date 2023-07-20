@@ -1,0 +1,236 @@
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	color: #3069b1;
+	font-weight: 900;
+}
+.child-hd {
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.child-reminder-div {
+	width: 100%;
+	height: 40vh;
+	background: #fff;
+	margin-top: 23px;
+	border-radius: 3%;
+}
+.activities-div {
+	width: 100%;
+	/* height: 50vh; */
+	background: #fff;
+	margin-top: 15px;
+	border-radius: 3%;
+	margin-bottom: 40px;
+	max-height: 1000px;
+	overflow: auto;
+}
+.upper-div {
+	width: 730px;
+	margin-left: 41px;
+}
+
+.child-man-div a {
+	color: #009dff;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.birthday-div {
+	width: 100%;
+	border-radius: 3%;
+	margin-right: 20px;
+}
+.ratio-div {
+	width: 100%;
+	border-radius: 3%;
+	margin-left: 20px;
+}
+.inner-bdy {
+	width: 100%;
+	background: #fff;
+	height: 410px;
+	margin-top: 21px;
+	/* border-radius: 3%; */
+}
+.second-div {
+	margin-top: 51px;
+	margin-bottom: 40px;
+}
+
+.student-age-font-bday {
+	font-size: 10px;
+	color: grey;
+	font-weight: 600;
+}
+.dob-font {
+	font-size: 12px;
+	color: black;
+	font-weight: 400;
+}
+.birthday-table-cont {
+	margin-top: 10px;
+	height: 60vh;
+	padding: 15px 10px 10px 10px;
+}
+.Allbirthday-table-cont {
+	margin-top: 10px;
+	height: 60vh;
+	padding: 0 25px 0 30px;
+}
+.MuiPickersDatePickerRoot-toolbarLandscape {
+	display: none;
+}
+.MuiPickersStaticWrapper-staticWrapperRoot {
+	background-color: transparent;
+}
+/* .makeStyles-sidebar-241 {
+	width: 500px;
+	height: auto;
+} */
+.event-box {
+	background: transparent
+		linear-gradient(90deg, #f2f9fe00 0%, #f7fbfea7 16%, #ffffff 48%, #f4fbfea5 85%, #eef8fe00 100%) 0% 0% no-repeat
+		padding-box;
+	margin-bottom: 10px;
+	padding: 15px 10px 5px 10px;
+}
+.event_name {
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #002e6c;
+}
+.event-title-heading {
+	font-weight: 700;
+	font-size: 18px;
+}
+.room-icon {
+	background-color: white;
+}
+.all-rooms {
+	margin-left: 6px;
+}
+.event-description {
+	margin-bottom: 5px;
+	margin-left: 16px;
+}
+.event-photo {
+	margin-left: 100px;
+}
+.room-num {
+	font-weight: 700;
+}
+.MuiPickersDay-daySelected {
+	background-color: #008dff;
+}
+.home-sidebar {
+	padding: 10px;
+	/* height: 84vh; */
+	margin-top: 30px;
+}
+.date_picker {
+	margin-left: -6px;
+}
+.more-events {
+	justify-content: center;
+	font-size: 16px;
+	color: #009dff;
+	font-weight: 700;
+}
+.event-badge-dot {
+	position: absolute;
+	font-size: 20px;
+	color: yellow;
+	top: 23px;
+	right: 18.7px;
+}
+
+.room-ratio-table {
+	padding: 0px 10px 0px 10px;
+	height: 100%;
+	/* border-radius: 10px; */
+}
+.roomRatioHeader {
+	color: rgb(31, 71, 156);
+	font-size: 13px;
+	font-weight: 700;
+}
+.rooms-ration-student {
+	text-align: center;
+	justify-content: center;
+}
+.reminder-columns{
+	font-size: 13px;
+	max-width: 100px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.empty-cell{
+	text-align: center;
+}
+@media (min-width: 2560px) {
+	.heading {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		color: #3069b1;
+		font-weight: 900;
+	}
+	.child-hd {
+		text-transform: capitalize;
+		font-size: 18px;
+	}
+	.inner-div-child {
+		width: 100%;
+		height: 470px;
+		background: #fff;
+		margin-top: 23px;
+		border-radius: 3%;
+	}
+
+	.upper-div {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.child-man-div a {
+		color: #009dff;
+		font-weight: 700;
+		font-size: 12px;
+	}
+
+	.birthday-div {
+		width: 100%;
+		/* border-radius: 3%; */
+		margin-right: 20px;
+	}
+	.ratio-div {
+		width: 100%;
+		border-radius: 3%;
+		margin-left: 20px;
+	}
+	.inner-bdy {
+		width: 100%;
+		/* background: #fff; */
+		margin-top: 21px;
+		/* border-radius: 3%; */
+	}
+	.second-div {
+		margin-top: 51px;
+		margin-bottom: 84px;
+	}
+
+	.student-age-font-bday {
+		font-size: 10px;
+		color: grey;
+		font-weight: 600;
+	}
+}
+
+
+
