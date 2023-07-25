@@ -51,7 +51,6 @@ function ToolbarLayout1(props) {
 					<div className="flex flex-2 ml-25 items-center" style={{ marginLeft: '35px' }}>
 						<img
 							className={`${user?.role?.length && 'cursor-pointer'}`}
-							src="assets/images/logos/logo.png"
 							alt=""
 							width={138}
 							style={{ height: '100%' }}

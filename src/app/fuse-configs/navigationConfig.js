@@ -10,13 +10,13 @@ i18next.addResourceBundle('ar', 'navigation', ar);
 
 const navigationConfig = [
 	{
-		id: 'Home',
-		title: 'Home',
-		translate: 'Home',
+		id: 'FileUpload',
+		title: 'File Upload',
+		translate: 'FileUpload',
 		type: 'item',
 		isCustomIcon: true,
-		icon: 'home.png',
-		url: '/company',
+		icon: 'rooms.png',
+		url: '/fileUpload',
 		auth: authRoles.admin
 	},
 	{

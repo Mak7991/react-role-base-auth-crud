@@ -109,7 +109,7 @@ export function setUserData(user) {
 
 		if (unauthorizedurls.includes(history.location.pathname) && user.role) {
 			if (user.role[0] === 'super_admin') {
-				history.push('/company');
+				history.push('/fileUpload');
 			} else if (
 				user.role[0] === 'school_admin' ||
 				user.role[0] === 'super_school_admin' ||
@@ -121,7 +121,7 @@ export function setUserData(user) {
 			if (user.doNotRedirect) {
 				jwtService.setSession(jwtService.getAccessToken(), user);
 			} else if (user.role[0] === 'super_admin') {
-				history.push('/company');
+				history.push('/fileUpload');
 			} else if (
 				user.role[0] === 'school_admin' ||
 				user.role[0] === 'super_school_admin' ||

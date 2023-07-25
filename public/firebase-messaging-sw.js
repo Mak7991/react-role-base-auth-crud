@@ -1,4 +1,4 @@
-importScripts('https://js.pusher.com/beams/service-worker.js');
+
 
 importScripts('https://www.gstatic.com/firebasejs/9.1.3/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/9.1.3/firebase-messaging-compat.js');
@@ -6,36 +6,7 @@ self.addEventListener('fetch', () => {
 	const urlParams = new URLSearchParams(location.search);
 	self.firebaseConfig = Object.fromEntries(urlParams);
 });
-PusherPushNotifications.onNotificationReceived = ({ pushEvent, payload }) => {
-	let active = false;
-	self.clients.matchAll({ includeUncontrolled: true, type: 'window' }).then(function(clients) {
-		//you can see your main window client in this list.
-		clients.forEach(function(client) {
-			client.postMessage({ ...payload, isBg: true });
-			if (client.visibilityState === 'visible') {
-				console.log('Window active, not showing popup');
-				active = true;
-			}
-		});
-	});
-	// NOTE: Overriding this method will disable the default notification
-	// handling logic offered by Pusher Beams. You MUST display a notification
-	// in this callback unless your site is currently in focus
-	// https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user#uservisibleonly_options
 
-	// Your custom notification handling logic here 🛠️
-	// https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
-	if (!active) {
-		console.log('Window not active, showing popup');
-		pushEvent.waitUntil(
-			self.registration.showNotification(payload.notification.title, {
-				body: payload.notification.body,
-				icon: payload.notification.icon,
-				data: payload.data
-			})
-		);
-	}
-};
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional

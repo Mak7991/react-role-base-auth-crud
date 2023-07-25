@@ -16,7 +16,7 @@ const routes = [
 		exact: true,
 		component: () => {
 			if (JSON.parse(secureLocalStorage.getItem('user'))?.role[0] === 'super_admin') {
-				return <Redirect to="/company" />;
+				return <Redirect to="/fileUpload" />;
 			}
 			if (
 				JSON.parse(secureLocalStorage.getItem('user'))?.role[0] === 'super_school_admin' ||

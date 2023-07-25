@@ -83,15 +83,7 @@ function LoginPage() {
 				<FuseAnimate animation="transition.expandIn">
 					<Card className="login-width">
 						<CardContent className="flex flex-col items-center justify-center p-32">
-							<img
-								width={150}
-								className="mb-2 gd text-center logo-img"
-								src="assets/images/logos/logo.png"
-								alt="logo"
-							/>
-							<Typography variant="h6" className="mt-11 mb-32 hellloooo">
-								Welcome to perfect day
-							</Typography>
+							
 							<form
 								name="loginForm"
 								noValidate

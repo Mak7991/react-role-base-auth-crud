@@ -11,12 +11,7 @@ import * as UserActions from 'app/auth/store/actions/user.actions';
 import history from '@history';
 import axios from 'axios';
 import { sendFCMTokenToBackend } from 'app/services/notifications/fcmServices';
-import { app } from 'utils/utils';
-import { getMessaging, getToken } from 'firebase/messaging';
-import * as PusherPushNotifications from '@pusher/push-notifications-web';
 import secureLocalStorage from 'react-secure-storage';
-
-const messaging = getMessaging(app);
 
 function SchoolListDialog() {
 	const dispatch = useDispatch();
@@ -78,64 +73,6 @@ function SchoolListDialog() {
 			});
 	};
 
-	const handleSubmit = school => {
-		if (!activeId) {
-			return;
-		}
-		setLoading(true);
-		if (school.otp) {
-			// dispatch(Actions.closeDialog());
-			if (user.role[0] === 'super_admin') {
-				secureLocalStorage.setItem('superadmin_token', JwtService.getAccessToken());
-			}
-			axios
-				.post(`/api/v1/authenticate/school/code?is_web=1`, { code: school.otp })
-				.then(resp => {
-					window.navigator.serviceWorker.ready.then(serviceWorkerRegistration => {
-						const beamsClient = new PusherPushNotifications.Client({
-							instanceId: process.env.REACT_APP_BEAMS_INSTANCE_ID,
-							serviceWorkerRegistration
-						});
-						beamsClient.clearAllState().then(() => console.log('Cleared all beams state'));
-					});
-					getToken(messaging, {
-						vapidKey: process.env.REACT_APP_FIREBASE_VAPID_KEY
-					})
-						.then(deviceToken => {
-							if (deviceToken) {
-								sendFCMTokenToBackend(deviceToken);
-								console.log(deviceToken);
-							} else {
-								// Show permission request UI
-								console.log('No registration token available. Request permission to generate one.');
-								// ...
-							}
-						})
-						.catch(err => {
-							console.log('An error occurred while retrieving token. ', err);
-							// ...
-						});
-					JwtService.setSession(resp.data.access_token);
-					// axios.get('/api/v1/profile').then(res => {
-					setLoading(false);
-					JwtService.setViewAs(resp.data.access_token);
-					dispatch(Actions.closeDialog());
-					dispatch(
-						UserActions.setUserData({
-							...user,
-							role: ['super_school_admin'],
-							school
-						})
-					);
-					history.push('/');
-				})
-				.catch(err => {
-					dispatch(Actions.showMessage({ variant: 'error', message: err?.response?.data?.message }));
-					dispatch(Actions.closeDialog());
-				});
-		}
-		console.log(school);
-	};
 
 	return (
 		<div className="bg-white px-32 school-list-card">
@@ -201,7 +138,6 @@ function SchoolListDialog() {
 				) : (
 					<button
 						type="button"
-						onClick={() => handleSubmit(rows.filter(row => row.id === activeId)[0])}
 						className="view-school-btn"
 					>
 						View School

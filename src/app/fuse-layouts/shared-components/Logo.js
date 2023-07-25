@@ -36,12 +36,12 @@ function Logo() {
 				FUSE
 			</Typography> */}
 			<div style={{marginTop:"40px"}} className={clsx(classes.reactBadge, 'react-badge flex items-center py-4 px-8 rounded')}>
-				<img
+				{/* <img
 					className="react-logo"
 					src="assets/images/logos/logo.png"
 					alt="react"
 					width="100%"
-				/>
+				/> */}
 				{/* <span className="react-text text-12 mx-4">React</span> */}
 			</div>
 		</div>

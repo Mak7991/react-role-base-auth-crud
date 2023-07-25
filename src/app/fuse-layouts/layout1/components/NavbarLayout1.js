@@ -92,11 +92,11 @@ function NavbarLayout1(props) {
 					</div>
 					<Navigation layout="vertical" className="bottom-nav" />
 
-					{(user.role.includes('super_admin') || user.role.includes('super_school_admin')) && (
+					{/* {(user.role.includes('super_admin') || user.role.includes('super_school_admin')) && (
 						<div className="mb-16 pb-16">
 							<ViewAs />
 						</div>
-					)}
+					)} */}
 				</FuseScrollbars>
 			</div>
 		</>

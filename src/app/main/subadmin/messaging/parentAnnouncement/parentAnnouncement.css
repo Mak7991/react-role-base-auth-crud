@@ -218,13 +218,6 @@ button.add-btn.enroll-btn {
 	width: 100%;
 	box-shadow: 0px 15px 25px #bbddff96;
 }
-.upload-file-div {
-	width: 97%;
-	margin-left: 15px;
-	padding: 20px;
-	display: block;
-	box-shadow: 0px 15px 25px #bbddff96;
-}
 .upload-img {
 	display: flex;
 	border-radius: 10;

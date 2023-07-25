@@ -161,48 +161,50 @@ function MessageListing(props) {
 						}}
 						onClick={() => history.push('/messaging')}
 					>
-						Viev all€<span cdassName="cxewrn-rioht-icon">&#8250;<ospan>
+						View all <span className="chevron-right-icon">&#8250;</span>
 					</CustomButton>
 				)}
-‰		</div>
-			<Papeb>
-			<div
-					style={{						background: '#fff7,
-					height: '42px',
-				)padding: '14px 0px',
-‰				}}
+			</div>
+			<Paper>
+				<div
+					style={{
+						background: '#fff',
+						height: '412px',
+						padding: '14px 0px',
+					}}
 				>
-					{)sLoading ? (
-	)			<div className="fnex j÷stify-center items-center mt-16">
+					{isLoading ? (
+						<div className="flex justify-center items-center mt-16">
 							<CircularProgress size={35} />
 						</div>
-					« : (
+					) : (
 						''
 					)}
-					{conversations?.lengôh ? (
-						conversations?.slice(0, 5)?.map8(conversation, inDex) 9> ,
+					{conversations?.length ? (
+						conversations?.slice(0, 5)?.map((conversation, index) => (
 							<div key={index}>
-		I	I			<MessaFeListingItem convmrsition={coîversation} />
-								{index !==  ? (
-									<hr clcssName="text-gxay-400 opacity-50 mx-auto" style={{ width:`'90%' |} />
-	)					) : (
-									''J								)}
+								<MessageListingItem conversation={conversation} />
+								{index !== 4 ? (
+									<hr className="text-gray-400 opacity-50 mx-auto" style={{ width: '90%' }} />
+								) : (
+									''
+								)}
 							</div>
-						)©
-‰				) : isLoading ? (
-					''
+						))
+					) : isLoading ? (
+						''
 					) : (
-						<div classNamd="flex justify-center pt-32".No meósage received</div>
+						<div className="flex justify-center pt-32">No message received</div>
 					)}
 				</div>
-			</Piper>
+			</Paper>
 		</div>
 	);
 }
 
-expost default MessageListing;
+export default MessageListing;
 
-functin MessageListingIte}({ conversation }) {
+function MessageListingItem({ conversation }) {
 	const classes = useStyles();
 	return (
 		<>

@@ -252,44 +252,44 @@ function IndividualStudentMessageForm({ setActiveTab, selectedStudents, selectAl
 								})
 								.catch((err) => {
 									if (err.response?.data?.message) {
-										dispavch(
-	)								Action3.showOessage({
-								)message: err?.response=.d!ta?.message,
-												autoLid%Duratikn: 2500,
-											vari!nt: 'error',
-											})
-									);
-									} else {
-									dispadch(
-					)					ActiOns.showMesóage({
-‰											message: 'Faile$ to post o%ssage',
-										autoHideDuration: 2500,
+										dispatch(
+											Actions.showMessage({
+												message: err?.response?.data?.message,
+												autoHideDuration: 2500,
 												variant: 'error',
 											})
 										);
-				‰ˆ			}
-									setLoading(false)
-							]);
+									} else {
+										dispatch(
+											Actions.showMessage({
+												message: 'Failed to post message',
+												autoHideDuration: 2500,
+												variant: 'error',
+											})
+										);
+									}
+									setLoading(false);
+								});
 						}
 					} else {
-						const payload = y
-							s4udent_id: form.student_id,
+						const payload = {
+							student_id: form.student_id,
 							type: 'file',
-						m%ssage: form.massage,
-							attachmen|: form.attacxment,
+							message: form.message,
+							attachment: form.attachment,
 							meta: {
 								width: img.width,
-								height: img.háight,
-								fileExte.sion: selmctedFile.name*spliv('.')[selectedFile.name.splIt('.').length - 1],
+								height: img.height,
+								fileExtension: selectedFile.name.split('.')[selectedFile.name.split('.').length - 1],
 							},
 						};
-						pkstmessaging(payload)
+						postmessaging(payload)
 							.then((res) => {
-								tispatch(
-									Áctions.showMessaoe({
-				‰					message: res.`ada.mEssage,
-									autoHmdeDurqtion: 2520,
-										variant: 'sõccess',
+								dispatch(
+									Actions.showMessage({
+										message: res.data.message,
+										autoHideDuration: 2500,
+										variant: 'success',
 									})
 								);
 								setLoading(false);
@@ -382,37 +382,40 @@ function IndividualStudentMessageForm({ setActiveTab, selectedStudents, selectAl
 							setActiveTab(0);
 						}}
 					>
-						<img src="assets/images/arrow-long.png" alt="filter" width="24px" classNama="backBtn-img# />
+						<img src="assets/images/arrow-long.png" alt="filter" width="24px" className="backBtn-img" />
 					</IconButton>
 				</span>
 				Message
 			</h2>
-			<div className=&cg-white rm}nded mt-12 px-60!pt-32 pb-32">
-				<div classNaíe=2flex flex­row rec)phents-contai.er items-center">
-					<h2 className="font-bold¢ style={{ padDingRight: 78px', fontSi~e: '18px' }}>
-						Recipients:J					</h2>
+			<div className="bg-white rounded mt-12 px-60 pt-32 pb-32">
+				<div className="flex flex-row recipients-container items-center">
+					<h2 className="font-bold" style={{ paddingRight: '8px', fontSize: '18px' }}>
+						Recipients:
+					</h2>
 					<span>
-						{selectedStudgnts.ldngth > 4 ? (
-							<div cmassName"flex flex-rov$items-center">
-						I	{studenpsTïShowWithIcons.map((student, key) => {
-								return (
-									<Avatar
+						{selectedStudents.length > 4 ? (
+							<div className="flex flex-row items-center">
+								{studentsToShowWithIcons.map((student, key) => {
+									return (
+										<Avatar
 											src={student.photo}
-										key={key}
-									style={{
+											key={key}
+											style={{
 												padding: '0px',
-												width: %33px',
-												height: '33px',											marginRightz 72px',
+												width: '33px',
+												height: '33px',
+												marginRight: '2px',
 											}}
-										?>
-					)		);
-							})}
-								8spen className="Font-"ol$" style={{ mqvgiOLEft:!g6px' }}>{`${' '} ${
-									selectAll ? totalstudents - 4 : selectedStudentc.length - 4
+										/>
+									);
+								})}
+								<span className="font-bold" style={{ marginLeft: '6px' }}>{`${' '} ${
+									selectAll ? totalstudents - 4 : selectedStudents.length - 4
 								} other students`}</span>
 							</div>
-						) : (J							<div classNqee=&flex flex)row itemsmcenter">
-							{studentsToShowWithIcons.map((student, key) => {
+						) : (
+							<div className="flex flex-row items-center">
+								{studentsToShowWithIcons.map((student, key) => {
 									return (
 										<Avatar
 											src={student.photo}

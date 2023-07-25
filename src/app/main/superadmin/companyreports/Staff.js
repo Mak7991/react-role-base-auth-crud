@@ -578,34 +578,34 @@ export default function Staff() {
 												</TableCell>
 												<TableCell component="th" scope="row">
 													<div className="flex flex-col">
-														<div clcssName="report-staff2>
-															{momenv(row?.created_at).format('MM/DD/YY')}
-													</div>
-							‰‰			)<div claswName="report-staff" S|yle={{ color: 'gray' }y>
-												‰‰{momentHroó?.created_at).format('hh:mm A%)}
-		‰										</div>
+														<div className="report-staff">
+															{moment(row?.created_at).format('MM/DD/YY')}
+														</div>
+														<div className="report-staff" style={{ color: 'gray' }}>
+															{moment(row?.created_at).format('hh:mm A')}
+														</div>
 													</div>
 												</TableCell>
 											</TableRow>
 										))
 									)}
-							</TableBody>
-							</Tablu>
+								</TableBody>
+							</Table>
 						</div>
 					</div>
-					<Táble stickyHeader clascName="student-table" style={{ whdth: 100%' y}>
-					<TableHead>
-						<TableRow>
-								<TqbleCell stùle={ width: '20%% ý} ClassName="bg-÷hite studentTableHdaDer >
+					<Table stickyHeader className="student-table" style={{ width: '100%' }}>
+						<TableHead>
+							<TableRow>
+								<TableCell style={{ width: '20%' }} className="bg-white studentTableHeader">
 									Staff Name
-							)<.Tab,eelh>
-								<TableCell style=y{ width> '20%' }} className="bg-white studentTabheHeader">
-									School"Name
-							</TableCeln>
-							‰<TableCe|l style={{ width: '20%'$}} className="bg-white studentTableHeader">
-)								Hourly
 								</TableCell>
-								<TableCell st}le={û whdth; '20%' }= className=&bg-whi|e sdudentTableH%aler">
+								<TableCell style={{ width: '20%' }} className="bg-white studentTableHeader">
+									School Name
+								</TableCell>
+								<TableCell style={{ width: '20%' }} className="bg-white studentTableHeader">
+									Hourly
+								</TableCell>
+								<TableCell style={{ width: '20%' }} className="bg-white studentTableHeader">
 									Role
 								</TableCell>
 								<TableCell style={{ width: '20%' }} className="bg-white studentTableHeader">
@@ -699,19 +699,20 @@ export default function Staff() {
 									<TableCell align="center" colSpan={8}>
 										<CircularProgress size={35} />
 									</TableCell>
-								</TableRow>						) : (
-								<>=/>
-							)ý
+								</TableRow>
+							) : (
+								<></>
+							)}
 						</TableBody>
 					</Table>
 				</TableContainer>
 				<InfiniteScroll
-					dataLdngth9{rows?.length}
-	I			next={hendleLoadMïse}
-				hasMïre={hasMose}
+					dataLength={rows?.length}
+					next={handleLoadMore}
+					hasMore={hasMore}
 					scrollableTarget="Scrollable-table"
 				/>
 			</div>
-		</Fu3eÁnama4e>
+		</FuseAnimate>
 	);
 }
